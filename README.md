@@ -37,18 +37,9 @@ Since we will search for the words the most used with emojis, we can also spot i
 
 
 ## Time plan
-<ul>
-	<li>
-		Start December: Tweets feeling classification
-	</li>
 
+- Start December: Tweets feeling classification
 
-<li>
-		Mid December: Data to use on the visualization map
-	</li>
+- Mid December: Data to use on the visualization map
 
-
-<li>
-		January: Map viz
-	</li>
-</ul>
+- January: Map viz
