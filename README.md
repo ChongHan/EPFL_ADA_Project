@@ -1,4 +1,3 @@
-# EPFL_ADA_Project
 # ADA Project Proposal
 
 
@@ -17,11 +16,13 @@ Then we classify tweets related to events (# tags, football matches, elections e
 Finally we plot insightful graphs and maps to display the information we gathered.
 
 
-If the workload and time permits, we could also apply the analysis on Live Twitter feeds to show people’s general feeling towards a rising topic or news.
+If the workload and time permits, we could also make use of the Twitter Search/Stream API to the apply our analysis on Live Twitter feeds to show people’s general feeling towards a rising topic or news.
 
 
 ## Data Description
 We are expecting data containing at least the content of tweets and its localization. The Tweet object from Twitter api also gives us a lot more information, for example the language identifier, retweet counts, favourite counts and etc.
+
+Tweet Object - https://dev.twitter.com/overview/api/tweets
 
 
 ## Feasibility and Risks
