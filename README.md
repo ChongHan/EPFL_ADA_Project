@@ -10,13 +10,13 @@ This project aims to analyse on tweets collected from twitter, discover the sent
 At first we study the given twitter data-set, we split the tweets by different languages then for each language we use emojis as a base expression of emotions of tweets to try to find keywords which have a high appearance associated with different emojis to build a dictionary which can be used later to differentiate tweets which have different sentiments.
 
 
-Then we classify tweets related to events (# tags, football matches, elections etc) to compare between the French and German part of Switzerland. And also we analyse emotions of twitter users from Switzerland then compare with other countries when a major international event take place. 
+Then we classify tweets related to different geo locations and compare the sentiment of tweets between the French and German part or different canton/cities of Switzerland. From the dataset, we will also try to extract useful information to classify tweets associated with different events/celebrities.
 
 
 Finally we plot insightful graphs and maps to display the information we gathered.
 
 
-If the workload and time permits, we could also make use of the Twitter Search/Stream API to the apply our analysis on Live Twitter feeds to show people’s general feeling towards a rising topic or news.
+If the workload and time permits, we could also make use of the Twitter Search/Stream API to the apply our analysis on Live Twitter feeds to show people’s general feeling towards a rising topic or news (#tags, football matches, general election and etc).
 
 
 ## Data Description
