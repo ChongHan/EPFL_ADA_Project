@@ -1,0 +1,20 @@
+1     id    		The integer representation of the unique identifier for this Tweet.
+2     userId    	The integer representation of the unique identifier for this User. 
+3     createdAt		UTC time when this Tweet was created. Example: "created_at":"Wed Aug 27 13:08:45 +0000 2008"
+4     text    		The actual UTF-8 text of the status update.
+5     longitude    	Nullable Represents the geographic location of this Tweet as reported by the user or client application. 
+6     latitude    	Nullable Represents the geographic location of this Tweet as reported by the user or client application. 
+7     placeId    	ID representing this place. Places are specific, named locations with corresponding geo coordinates. They can be attached to Tweets by specifying a place_id when tweeting. Tweets associated with places are not necessarily issued from that location but could also potentially be about that location.
+8     inReplyTo    	Nullable If the represented Tweet is a reply, this field will contain the integer representation of the original Tweet’s ID. 
+9     source    	
+10    truncated         Indicates whether the value of the text parameter was truncated, for example, as a result of a retweet exceeding the 140 character Tweet length. Truncated text will end in ellipsis, like this ... Since Twitter now rejects long Tweets vs truncating them, the large majority of Tweets will have this set to false . Note that while native retweets may have their toplevel text property shortened, the original text will be available under the retweeted_status object and the truncated parameter will be set to the value of the original status (in most cases, false ). 
+11    placeLatitude    	see placeID
+12    placeLongitude    see placeID
+13    sourceName    	Name of the utility used to post the Tweet
+14    sourceUrl		Url of the utility used to post the Tweet
+15    userName    	The name of the user, as they’ve defined it. Not necessarily a person’s name. Typically capped at 20 characters, but subject to change.
+16    screenName    	The screen name, handle, or alias that this user identifies themselves with. screen_names are unique but subject to change. Typically a maximum of 15 characters long, but some historical accounts may exist with longer names. 
+17    followersCount    The number of followers this account currently has. Under certain conditions of duress, this field will temporarily indicate “0.”
+18    friendsCount    	The number of users this account is following (AKA their “followings”). Under certain conditions of duress, this field will temporarily indicate “0.” 
+19    statusesCount    	The number of tweets (including retweets) issued by the user.
+20    userLocation    	Nullable . The user-defined location for this account’s profile. Not necessarily a location nor parseable. This field will occasionally be fuzzily interpreted by the Search service.
