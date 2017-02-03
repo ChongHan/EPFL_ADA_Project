@@ -1,3 +1,24 @@
+# Repository organisation
+
+We have divided our work into multiple notebooks. 
+
+To read them in order:
+- **0. Sample Data processing ** - Data exploration through a sample data provided.
+- **1. CHONG FILE ** - NLP process for the sentiment score analysis.
+- **2. Tweets Locattion - Vizualisations ** - Analysis of multiple ways to represent our data and how to retrieve the location for each tweet.
+- **3. Location per tweet ** - Code used to retrieve the location for each tweet in the entire dataset
+- **4. Date Information ** - Code used to retrieve the year, month, and day information for each tweet.
+- **5. Data for Viz ** - Merging of the *Sentiment* + *Location* + *Time* data for each tweet
+- **6. Build Vizualtions **  - Goal of the project.
+- **7. Switzerland’s Tweets sentiment analysis ** - The slides used for the poster in the presentation day.
+
+Due to the high number of cells and viz present in the notebook, we can only advice you to use *nbviewer* --> ** https://nbviewer.jupyter.org/github/ChongHan/EPFL_ADA_Project/tree/master/ **
+
+
+<br/>
+<br/>
+
+
 # ADA Project Proposal
 
 
@@ -43,3 +64,14 @@ Since we will search for the words the most used with emojis, we can also spot i
 - Mid December: Data to use on the visualization map
 
 - January: Map viz
+
+
+<br/>
+<br/>
+
+## Credits
+*Applied Data Analysis*  - *CS-401* - 2016/17 Autumn semester - EPFL
+
+Authors:
+- Chong Han: *chong.han@epfl.ch*
+- Rodrigues Danny: *danny.rodriguesalves@epfl.ch*
