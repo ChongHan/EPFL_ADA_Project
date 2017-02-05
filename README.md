@@ -4,7 +4,8 @@ We have divided our work into multiple notebooks.
 
 To read them in order:
 - **0. Sample Data processing ** - Data exploration through a sample data provided.
-- **1. CHONG FILE ** - NLP process for the sentiment score analysis.
+- **1.1 Happy and Sad Tweets Extraction.ipynb ** - NLP process for the happy_sad tweets extraction.
+- **1.2 1.2 Sentiment analysis.ipynb ** - NLP process for the sentiment score analysis.
 - **2. Tweets Locattion - Vizualisations ** - Analysis of multiple ways to represent our data and how to retrieve the location for each tweet.
 - **3. Location per tweet ** - Code used to retrieve the location for each tweet in the entire dataset
 - **4. Date Information ** - Code used to retrieve the year, month, and day information for each tweet.
